@@ -1,5 +1,8 @@
-" set up ctrlp
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+" init pathogen
+execute pathogen#infect()
 
 " global settings
 set number
+
+" add syntax hightlighting
+syntax on
