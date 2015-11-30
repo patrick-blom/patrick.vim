@@ -7,6 +7,10 @@ set autoindent
 set smartindent
 set shiftwidth=4
 
+" enable autocompletion
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
 " add syntax hightlighting
 syntax on
 
