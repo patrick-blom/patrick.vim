@@ -10,6 +10,11 @@ set shiftwidth=4
 " add syntax hightlighting
 syntax on
 
+" color scheme
+colorscheme gruvbox
+set background=dark
+
+
 " SHORTCUTS
 " Map Crtl-n to NERDTreeToggle
 map <silent> <C-n> :NERDTreeToggle<CR>
