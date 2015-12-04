@@ -22,6 +22,10 @@ set background=dark
 set laststatus=2
 set statusline=%f "tail of the filename 
 
+" set fonts
+set guifont=Monaco\ for\ Powerline\ Regular:20
+let g:airline_powerline_fonts = 1
+
 " SHORTCUTS
 " Map Crtl-n to NERDTreeToggle
 map <silent> <C-n> :NERDTreeToggle<CR>
