@@ -18,6 +18,9 @@ syntax on
 colorscheme gruvbox
 set background=dark
 
+" set status bar
+set laststatus=2
+set statusline=%f "tail of the filename 
 
 " SHORTCUTS
 " Map Crtl-n to NERDTreeToggle
