@@ -6,6 +6,7 @@ set number
 set autoindent
 set smartindent
 set shiftwidth=4
+set nowrap
 
 " enable autocompletion
 filetype plugin on
